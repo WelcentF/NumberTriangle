@@ -97,7 +97,6 @@ public class NumberTriangle {
         else if (start == 'r'){
             return right.retrieve(path.substring(1));
         }
-
         return -1;
     }
 
